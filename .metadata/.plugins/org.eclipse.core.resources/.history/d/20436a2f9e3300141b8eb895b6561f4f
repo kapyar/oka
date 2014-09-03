@@ -1,0 +1,26 @@
+public class Generator {
+
+	int holder[] = new int[1000000];
+
+	/*
+	 * 1. input n 2. print n 3. if n = 1 then STOP 4. if n is odd then n = 3 * n
+	 * + 1 5. else n = n / 2 6. GOTO 2
+	 */
+
+	public static void generator(int n) {
+		int temp = n;
+		int counterSteps = 0;
+
+		System.out.print("Number: " + temp + " [");
+		while (temp != 1) {
+			if (temp % 2 == 1) {
+				temp = 3 * temp + 1;
+			} else {
+				temp /= 2;
+			}
+			System.out.print(temp + ", ");
+		}
+		System.out.println("]\n");
+
+	}
+}

@@ -1,0 +1,16 @@
+public class Main {
+
+	public static void main(String[] args) {
+
+		Generator g = new Generator();
+		long timeStart = System.currentTimeMillis();
+		System.out.println(g.generator(100, 200));
+		long timeEnd = System.currentTimeMillis();
+		System.out.println("Time spend: " + (timeEnd - timeStart));
+
+		for (int i = 7; i <= 9; ++i) {
+			g.printAlgo(i);
+		}
+
+	}
+}

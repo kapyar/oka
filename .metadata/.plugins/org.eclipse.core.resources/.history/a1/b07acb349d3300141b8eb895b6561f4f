@@ -1,0 +1,12 @@
+public class Generator {
+
+	public static void generator(int n) {
+		int temp = n;
+		int counterSteps = 0;
+
+		while (temp != 1) {
+
+		}
+
+	}
+}
