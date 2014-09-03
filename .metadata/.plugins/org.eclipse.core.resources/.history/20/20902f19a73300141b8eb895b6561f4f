@@ -4,9 +4,13 @@ public class Main {
 
 		Generator g = new Generator();
 		long timeStart = System.currentTimeMillis();
-		System.out.println(g.generator(1, 10000));
+		System.out.println(g.generator(1, 1000));
 		long timeEnd = System.currentTimeMillis();
 		System.out.println("Time spend: " + (timeEnd - timeStart));
+
+		for (int i = 7; i <= 9; ++i) {
+			g.printAlgo(i);
+		}
 
 	}
 }
