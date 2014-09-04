@@ -1,6 +1,6 @@
 public class Generator {
 
-	private int holder[] = new int[99000000];
+	private int holder[] = new int[12050855];
 
 	/*
 	 * 1. input n 2. print n 3. if n = 1 then STOP 4. if n is odd then n = 3 * n
@@ -12,50 +12,30 @@ public class Generator {
 		while (n <= m) {
 			int counterSteps = 0;
 			int temp = n;
-			// System.out.print("Number: " + temp + " [");
-			boolean flag = false;
-			while (!flag) {
+
+			while (true) {
+
 				++counterSteps;// how many steps we already done
-				if (temp % 2 == 1) {
-					if (holder[temp] == 0) {
-						holder[temp] = counterSteps;
-						if (temp == 1) {
-							flag = true;
-							break;
-						}
-					} else if (counterSteps > holder[temp]) {
-						holder[temp] = counterSteps;
-						if (temp == 1)
-							break;
-					} else {
+
+				if (counterSteps > holder[temp]) {
+					holder[temp] = counterSteps;
+					if (temp == 1)
 						break;
+
+					if (temp % 2 == 1) {
+						temp = 3 * temp + 1;
+					} else {
+						temp /= 2;
 					}
-					temp = 3 * temp + 1;
 				} else {
-					if (holder[temp] == 0) {
-						holder[temp] = counterSteps;
-						if (temp == 1) {
-							flag = true;
-							break;
-						}
-					} else if (counterSteps > holder[temp]) {
-						holder[temp] = counterSteps;
-						if (temp == 1) {
-							flag = true;
-							break;
-						}
-
-					} else {
-						break;
-					}
-
-					temp /= 2;
+					break;
 				}
-				// System.out.print(temp + ", ");
+
 			}
-			// System.out.println("]\n");
-			n++;// increase left bound
+
+			n++;
 		}
+
 		return holder[1];
 	}
 
