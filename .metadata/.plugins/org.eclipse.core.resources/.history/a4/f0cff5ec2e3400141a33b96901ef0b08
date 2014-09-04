@@ -2,47 +2,49 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Main {
 
-	private static int holder[] = new int[8205085];
+	class Generator {
+		private int holder[] = new int[8205085];//
 
-	public static int generator(int n, int m) {
+		public int generator(int n, int m) {
 
-		while (n <= m) {
-			int counterSteps = 0;
-			int temp = n;
+			while (n <= m) {
+				int counterSteps = 0;
+				int temp = n;
 
-			while (true) {
+				while (true) {
 
-				++counterSteps;// how many steps we already done
+					++counterSteps;// how many steps we already done
 
-				if (counterSteps > holder[temp]) {
-					holder[temp] = counterSteps;
-					if (temp == 1)
-						break;
+					if (counterSteps > holder[temp]) {
+						holder[temp] = counterSteps;
+						if (temp == 1)
+							break;
 
-					if (temp % 2 == 1) {
-						temp = 3 * temp + 1;
+						if (temp % 2 == 1) {
+							temp = 3 * temp + 1;
+						} else {
+							temp /= 2;
+						}
 					} else {
-						temp /= 2;
+						break;
 					}
-				} else {
-					break;
+
 				}
 
+				n++;
 			}
 
-			n++;
+			return holder[1];
 		}
-
-		return holder[1];
 	}
 
 	public static void main(String[] args) throws IOException {
