@@ -1,0 +1,28 @@
+import java.io.File;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		File fin = new File("dummy.txt");
+
+		FileInputStream fis = new FileInputStream(fin);
+
+		// Construct BufferedReader from InputStreamReader
+		BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+
+		String line = null;
+		while ((line = br.readLine()) != null) {
+			System.out.println(line);
+		}
+
+		br.close();
+
+		Generator g = new Generator();
+		long timeStart = System.currentTimeMillis();
+		System.out.println(g.generator(900, 3025));
+		long timeEnd = System.currentTimeMillis();
+		System.out.println("Time spend: " + (timeEnd - timeStart));
+
+	}
+}

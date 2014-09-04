@@ -1,0 +1,51 @@
+public class Generator {
+
+	private int holder[] = new int[6810137];//
+
+	public int generator(int n, int m) {
+
+		while (n <= m) {
+			int counterSteps = 0;
+			int temp = n;
+
+			while (true) {
+
+				++counterSteps;// how many steps we already done
+
+				if (counterSteps > holder[temp]) {
+					holder[temp] = counterSteps;
+					if (temp == 1)
+						break;
+
+					if (temp % 2 == 1) {
+						temp = 3 * temp + 1;
+					} else {
+						temp /= 2;
+					}
+				} else {
+					break;
+				}
+
+			}
+
+			n++;
+		}
+
+		return holder[1];
+	}
+
+	public void printAlgo(int temp) {
+		System.out.print("Number: " + temp + "[ ");
+		int i = 1;
+		while (temp != 1) {
+			++i;
+			if (temp % 2 == 1) {
+				temp = 3 * temp + 1;
+			} else {
+				temp /= 2;
+			}
+			System.out.print(temp + ", ");
+		}
+		System.out.println(" ]: " + i);
+	}
+}
