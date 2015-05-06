@@ -11,41 +11,38 @@ import java.io.OutputStreamWriter;
 
 public class Main {
 
-	class Generator {
+	private static short holder[] = new short[40700000];
 
-		private short holder[] = new short[3000000];
+	public static int generator(int n, int m) {
 
-		public int generator(int n, int m) {
+		while (n <= m) {
+			short counterSteps = 0;
+			int temp = n;
 
-			while (n <= m) {
-				short counterSteps = 0;
-				int temp = n;
+			while (true) {
 
-				while (true) {
+				++counterSteps;// how many steps we already done
 
-					++counterSteps;// how many steps we already done
-
-					if (counterSteps > holder[temp]) {
-						holder[temp] = counterSteps;
-						if (temp == 1)
-							break;
-
-						if (temp % 2 == 1) {
-							temp = 3 * temp + 1;
-						} else {
-							temp /= 2;
-						}
-					} else {
+				if (counterSteps > holder[temp]) {
+					holder[temp] = counterSteps;
+					if (temp == 1)
 						break;
-					}
 
+					if (temp % 2 == 1) {
+						temp = 3 * temp + 1;
+					} else {
+						temp /= 2;
+					}
+				} else {
+					break;
 				}
 
-				n++;
 			}
 
-			return holder[1];
+			n++;
 		}
+
+		return holder[1];
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -61,9 +58,8 @@ public class Main {
 
 		int first = Integer.valueOf(numbers[0]);
 		int second = Integer.valueOf(numbers[1]);
-		Main m = new Main();
-		Main.Generator g = m.new Generator();
-		int result = g.generator(first, second);
+
+		int result = generator(first, second);
 
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
 				new FileOutputStream(new File("output.txt"))));

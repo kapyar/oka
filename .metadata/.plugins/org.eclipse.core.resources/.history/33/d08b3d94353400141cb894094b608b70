@@ -13,7 +13,7 @@ public class Main {
 
 	class Generator {
 
-		private short holder[] = new short[3000000];
+		private short holder[] = new short[30700000];
 
 		public int generator(int n, int m) {
 
@@ -61,8 +61,7 @@ public class Main {
 
 		int first = Integer.valueOf(numbers[0]);
 		int second = Integer.valueOf(numbers[1]);
-		Main m = new Main();
-		Main.Generator g = m.new Generator();
+		Main.Generator g = new Main.Generator();
 		int result = g.generator(first, second);
 
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(

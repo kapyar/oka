@@ -1221,3 +1221,155 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:40:33.136
 !MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+!SESSION 2014-09-04 15:57:40.519 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\Users\ykaplunskyi\Desktop\git\Algorithms -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2014-09-04 15:57:43.562
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-04 15:57:43.562
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CreatePatchCommand,Create Patch...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5efb1f46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38c25d61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:57:46.899
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-04 15:57:59.429
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-04 15:57:59.430
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ykaplunskyi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:58:06.580
+!MESSAGE Filter file C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:58:06.608
+!MESSAGE Reloading core Practica3Nplus1
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:58:06.613
+!MESSAGE Added core Practica3Nplus1 with classpath C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin;C:/Users/YKAPLU~1/AppData/Local/Temp/infinitest2108042605.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:58:06.615
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 15:59:56.523
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:02:39.808
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:02:58.640
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:03:13.119
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:03:37.626
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:03:43.506
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:03:49.722
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:03:54.788
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:04:02.191
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:04:08.015
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:04:15.127
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class]
+!SESSION 2014-09-04 16:13:59.879 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -data C:\Users\ykaplunskyi\Desktop\git\Algorithms -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2014-09-04 16:14:02.801
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-04 16:14:02.801
+!MESSAGE A conflict occurred for ALT+CTRL+P:
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CreatePatchCommand,Create Patch...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5efb1f46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.profiles.ui.commands.selectMavenProfileCommand,Select Maven Profiles,
+		,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38c25d61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:14:05.917
+!MESSAGE Beans loaded: [org.springframework.context.annotation.internalConfigurationAnnotationProcessor, org.springframework.context.annotation.internalAutowiredAnnotationProcessor, org.springframework.context.annotation.internalRequiredAnnotationProcessor, org.springframework.context.annotation.internalCommonAnnotationProcessor, infinitestConfig, org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor, resultCollectorBean, coreLifecycleObserver, classFileChangeProcessor, cleanEventProcessor, coreUpdateNotifier, saveDetector, failureMediator, infinitestActivationController, markerClearingRunnable, markerClearingObserver, markerPlacer, problemMarkerRegistry, resourceLookupAdapter, slowMarkerRegistry, preferenceChangeHandler, slowTestObserver, swtEventQueue, testResultAggregator, visualStatusPresenter, coreFactory, eclipseWorkspace, infinitestCoreRegistry, javaProjectSet, workspaceResourceFinder, workspace, sourceContainer]
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-04 16:14:18.622
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-04 16:14:18.624
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ykaplunskyi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:16:13.401
+!MESSAGE Filter file C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:16:13.432
+!MESSAGE Reloading core Practica3Nplus1
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:16:13.438
+!MESSAGE Added core Practica3Nplus1 with classpath C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin;C:/Users/YKAPLU~1/AppData/Local/Temp/infinitest1295084501.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:16:13.440
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class, C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main$Generator.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2014-09-04 16:16:41.497
+!MESSAGE Practica3Nplus1 Files changed: [C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main.class, C:\Users\ykaplunskyi\Desktop\git\Algorithms\Practica3Nplus1\bin\Main$Generator.class]
